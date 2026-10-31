@@ -4,72 +4,83 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TyreLink - Coming Soon | www.tyrelink.lk</title>
-  <meta name="description" content="TyreLink PVT (LTD) - Sri Lanka. Coming Soon." />
+  <meta name="description" content="TyreLink PVT (LTD) - Sri Lanka's upcoming premier tyre marketplace and automotive solutions. Website launching soon." />
 
-  <!-- Google Fonts -->
+  <!-- Favicon for Browser Tabs -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=2" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico?v=2" />
+  <link rel="apple-touch-icon" sizes="192x192" href="favicon-192x192.png?v=2" />
+
+  <!-- Open Graph & WhatsApp / Facebook Preview Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tyrelink.lk/" />
+  <meta property="og:title" content="TyreLink Sri Lanka - Coming Soon" />
+  <meta property="og:description" content="Official website of TyreLink PVT (LTD). We are launching soon with genuine tyres, tubes, batteries & automotive accessories across Sri Lanka." />
+  <meta property="og:image" content="https://tyrelink.lk/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="TyreLink" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TyreLink Sri Lanka - Coming Soon" />
+  <meta name="twitter:description" content="TyreLink PVT (LTD) - Sri Lanka. Coming Soon." />
+  <meta name="twitter:image" content="https://tyrelink.lk/og-image.jpg" />
+
+  <!-- Google Font: Montserrat -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Noto+Sans+Sinhala:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Curved dynamic background ribbons and tire tread lines matching the banner -->
+  <!-- Ambient floating glowing light orbs -->
+  <div class="glow-orb orb-red"></div>
+  <div class="glow-orb orb-light"></div>
+
+  <!-- Dynamic background curves and tyre tracks -->
   <div class="bg-layer tread-track-1"></div>
   <div class="bg-layer tread-track-2"></div>
   <div class="bg-layer ribbon-grey"></div>
   <div class="bg-layer ribbon-red"></div>
 
+  <!-- Main Glassmorphism Presentation -->
   <main class="page-container">
-    <div class="card-wrapper">
+    <div class="glass-card">
+      <div class="glass-reflection"></div>
       
-      <!-- Brand Logo Section -->
+      <!-- Official TyreLink Logo (Big, Bold, Prominent) -->
       <div class="logo-box">
-        <div class="logo-icon-wrap">
-          <!-- TyreLink curved wing / road tire arch icon matching official branding -->
-          <svg class="brand-symbol" viewBox="0 0 100 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5 58 C 22 28, 55 12, 95 8 C 65 17, 35 34, 18 58 Z" fill="#d91b1b"/>
-            <path d="M16 58 C 30 33, 62 20, 95 18 C 70 26, 44 40, 28 58 Z" fill="#d91b1b"/>
-            <path d="M26 58 C 39 39, 68 30, 95 28 C 74 36, 52 46, 38 58 Z" fill="#d91b1b"/>
-          </svg>
-        </div>
-        <div class="brand-text">
-          <span class="logo-tyre">TYRE</span><span class="logo-link">LINK</span>
-        </div>
+        <picture>
+          <source srcset="tyrelink-logo.webp" type="image/webp" />
+          <img 
+            src="tyrelink-logo.png" 
+            alt="TyreLink Logo" 
+            class="brand-logo-img" 
+            width="1564" 
+            height="363"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </picture>
       </div>
 
-      <!-- Sinhala Official Slogan from Banner -->
-      <div class="sinhala-tagline">
-        <span class="motto-item">විශ්වාසය</span>
-        <span class="motto-divider">|</span>
-        <span class="motto-item highlight">වගකීම</span>
-        <span class="motto-divider">|</span>
-        <span class="motto-item">කල්පැවැත්ම</span>
-      </div>
-
-      <div class="divider-line">
-        <span class="sub-sinhala">තහවුරු කළ හොඳම තත්වය</span>
-      </div>
-
-      <!-- Categories Subtitle -->
-      <p class="service-categories">
-        TYRE &bull; TUBE &bull; ACCESSORIES &bull; BATTERIES
-      </p>
-
-      <!-- COMING SOON Badge / Title -->
-      <div class="coming-soon-box">
-        <h1 class="coming-soon-text">COMING SOON</h1>
-        <div class="status-indicator">
-          <span class="dot"></span>
+      <!-- Glowing COMING SOON Banner -->
+      <div class="coming-soon-wrapper">
+        <div class="coming-soon-badge">
+          <span class="live-dot"></span>
           <span>WEBSITE UNDER CONSTRUCTION</span>
         </div>
+        <h1 class="coming-soon-title">COMING SOON</h1>
       </div>
 
-      <!-- Company Identity & Domain -->
-      <div class="company-footer">
-        <p class="company-name">TYRELINK PVT (LTD)</p>
-        <p class="domain-tag">www.tyrelink.lk</p>
-      </div>
+      <!-- Minimal Clean Footer -->
+      <footer class="brand-footer">
+        <span class="company-name">TYRELINK PVT (LTD)</span>
+        <span class="footer-divider">&bull;</span>
+        <a href="https://tyrelink.lk" class="domain-link">www.tyrelink.lk</a>
+      </footer>
 
     </div>
   </main>
